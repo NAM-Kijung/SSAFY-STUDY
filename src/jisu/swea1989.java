@@ -19,7 +19,7 @@ public class swea1989 {
 					check = false;
 				}
 				
-			}
+			}  
 			
 			if (check == true ) {
 				System.out.printf("#%d %d\n", t, 1);
