@@ -1,4 +1,4 @@
-package jisu;
+package Baekjoon;
 
 import java.util.List;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package jisu;
+package Swea;
 
 import java.util.Scanner;
 

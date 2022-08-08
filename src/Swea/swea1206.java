@@ -1,4 +1,4 @@
-package jisu;
+package Swea;
 
 public class swea1206 {
 
