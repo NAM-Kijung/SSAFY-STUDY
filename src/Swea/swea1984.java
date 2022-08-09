@@ -1,4 +1,4 @@
-package day1;
+package Swea;
 
 import java.util.Scanner;
 
@@ -6,20 +6,20 @@ public class swea1984 {
 
 	public static void main(String[] args) {
 		
-		Scanner sc = new Scanner(System.in);
+Scanner sc = new Scanner(System.in);
 		
 		int T = sc.nextInt();
 		int[] arr = new int[10];
 		
 		for(int t=1; t<=T; t++) {
 			
-			//¹è¿­¿¡ °ª ´ëÀÔ
+			//ë°°ì—´ì— ê°’ ëŒ€ìž…
 			for(int i=0; i<arr.length; i++) {
 				arr[i] = sc.nextInt();
 			}
 			
-			// ¹è¿­ Á¤·ÄÇÏ±â
-//			1. ¹öºíÁ¤·Ä
+			// ë°°ì—´ ì •ë ¬í•˜ê¸°
+//			1. ë²„ë¸”ì •ë ¬
 //			int tmp=0;
 //			for(int i =0; i<arr.length-1; i++) {
 //				for(int j=0; j<arr.length-1-i; j++) {
@@ -31,7 +31,7 @@ public class swea1984 {
 //				}
 //			} //for
 			
-//			2. ¼±ÅÃ Á¤·Ä·Î Ç®¾îº¸±â
+//			2. ì„ íƒ ì •ë ¬ë¡œ í’€ì–´ë³´ê¸°
 //			for() {
 //				
 //			}
@@ -39,7 +39,7 @@ public class swea1984 {
 			
 			
 			
-			//³ª¸ÓÁö Æò±Õ°ª ±¸ÇÏ±â
+			//ë‚˜ë¨¸ì§€ í‰ê· ê°’ êµ¬í•˜ê¸°
 			int sum = 0;
 			for(int i=1; i<arr.length-1; i++) {
 				sum += arr[i];
@@ -47,11 +47,11 @@ public class swea1984 {
 			
 			double result = (double)sum/(arr.length-2);
 			System.out.println("#"+t+" "+Math.round(result));
-		} //for: T¹ø ¹Ýº¹
+		} //for: Të²ˆ ë°˜ë³µ
 		
 		
 	} //main
 } //end class
 
-// Á¤·Ä
-// ¸Ç ¾ÕµÚ Á¦¿Ü ³ª¸ÓÁö·Î Æò±Õ°ª ±¸ÇÏ±â
+// ì •ë ¬
+// ë§¨ ì•žë’¤ ì œì™¸ ë‚˜ë¨¸ì§€ë¡œ í‰ê· ê°’ êµ¬í•˜ê¸°

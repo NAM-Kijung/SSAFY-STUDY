@@ -1,4 +1,4 @@
-package day1;
+package Swea;
 
 import java.util.Scanner;
 
@@ -13,7 +13,7 @@ public class swea1204_2 {
 		for(int tc=1; tc<=T; tc++) {
 			int tn = sc.nextInt();
 			
-			// ÇÐ»ýµéÀÇ Á¡¼ö Ä«¿îÆ® ¹è¿­ scores[]
+			// í•™ìƒë“¤ì˜ ì ìˆ˜ ì¹´ìš´íŠ¸ ë°°ì—´ scores[]
 			int[] scores = new int[101];
 			
 			int idx =0;
@@ -22,8 +22,8 @@ public class swea1204_2 {
 				scores[idx]++;
 			}
 			
-			// scores[] ¹è¿­¿¡¼­ ÃÖ´ë°ª Ã£±â
-			// ±× ÃÖ´ë°ªÀÇ ÀÎµ¦½º°¡ Á¤´ä
+			// scores[] ë°°ì—´ì—ì„œ ìµœëŒ€ê°’ ì°¾ê¸°
+			// ê·¸ ìµœëŒ€ê°’ì˜ ì¸ë±ìŠ¤ê°€ ì •ë‹µ
 			int max = 0;
 			int result = 0;
 			for(int j=0; j<scores.length; j++) {
@@ -46,6 +46,6 @@ public class swea1204_2 {
 
 
 
-// °¢ Á¡¼ö¸¦ arg[]¿¡ ÀÔ·Â ¹Þ´Â´Ù
-// arg[]ÀÇ °ªÀÌ scores ÀÎµ¦½º·Î Áï, scores[arg[]]++;
-// scores ÀÇ °ªÀÌ °¡Àå Å« °Í Ã£±â
+// ê° ì ìˆ˜ë¥¼ arg[]ì— ìž…ë ¥ ë°›ëŠ”ë‹¤
+// arg[]ì˜ ê°’ì´ scores ì¸ë±ìŠ¤ë¡œ ì¦‰, scores[arg[]]++;
+// scores ì˜ ê°’ì´ ê°€ìž¥ í° ê²ƒ ì°¾ê¸°

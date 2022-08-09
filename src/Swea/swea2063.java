@@ -1,9 +1,9 @@
-package day1;
+package Swea;
 
 import java.util.Scanner;
 
-//ÀüÃ¼ ºóµµ¼ö¸¦ ¾Ë¸é ÇØ´ç°ªÀÇ µî¼ö¸¦ ¾Ë ¼ö ÀÖ´Ù
-// > Áß°£°ª, n¹øÂ° °ªÀ» ¾Ë ¼ö ÀÖÀ½
+//ì „ì²´ ë¹ˆë„ìˆ˜ë¥¼ ì•Œë©´ í•´ë‹¹ê°’ì˜ ë“±ìˆ˜ë¥¼ ì•Œ ìˆ˜ ìˆë‹¤
+//> ì¤‘ê°„ê°’, në²ˆì§¸ ê°’ì„ ì•Œ ìˆ˜ ìˆìŒ
 public class swea2063 {
 
 	public static void main(String[] args) {
